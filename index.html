@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>3D Layered Hover Effect</title>
+   <title>Nawal Abuzaid Profile</title>
    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
    <style>
@@ -21,6 +21,29 @@
          height: 100%;
          place-items: center;
          background-color: #000;
+         color: #fff;
+      }
+
+      .profile {
+         text-align: center;
+      }
+
+      .profile img {
+         border-radius: 50%;
+         width: 140px;
+         height: 140px;
+      }
+
+      .company-name {
+         font-size: 24px;
+         font-weight: 600;
+         margin: 10px 0;
+      }
+
+      .slogan {
+         font-size: 18px;
+         font-weight: 500;
+         margin-bottom: 20px;
       }
 
       .icon-group {
@@ -89,67 +112,6 @@
          transform: translate(20px, -20px);
       }
 
-      /* Specific styles for each icon */
-      .facebook .layer span,
-      .facebook .text {
-         color: #4267B2;
-         border-color: #4267B2;
-      }
-
-      .twitter .layer span,
-      .twitter .text {
-         color: #1DA1F2;
-         border-color: #1DA1F2;
-      }
-
-      .instagram .layer span,
-      .instagram .text {
-         color: #E1306C;
-         border-color: #E1306C;
-      }
-
-      .linkedin .layer span,
-      .linkedin .text {
-         color: #2867B2;
-         border-color: #2867B2;
-      }
-
-      .youtube .layer span,
-      .youtube .text {
-         color: #ff0000;
-         border-color: #ff0000;
-      }
-
-      .whatsapp .layer span,
-      .whatsapp .text {
-         color: #25D366;
-         border-color: #25D366;
-      }
-
-      .icons a:hover.facebook .layer span {
-         box-shadow: -1px 1px 3px #4267B2;
-      }
-
-      .icons a:hover.twitter .layer span {
-         box-shadow: -1px 1px 3px #1DA1F2;
-      }
-
-      .icons a:hover.instagram .layer span {
-         box-shadow: -1px 1px 3px #E1306C;
-      }
-
-      .icons a:hover.linkedin .layer span {
-         box-shadow: -1px 1px 3px #2867B2;
-      }
-
-      .icons a:hover.youtube .layer span {
-         box-shadow: -1px 1px 3px #ff0000;
-      }
-
-      .icons a:hover.whatsapp .layer span {
-         box-shadow: -1px 1px 3px #25D366;
-      }
-
       .icons a .text {
          position: absolute;
          left: 50%;
@@ -164,73 +126,100 @@
          bottom: -35px;
          opacity: 1;
       }
+
+      /* Specific styles for each icon */
+      .instagram .layer span,
+      .instagram .text {
+         color: #E1306C;
+         border-color: #E1306C;
+      }
+
+      .tiktok .layer span,
+      .tiktok .text {
+         color: #69C9D0;
+         border-color: #69C9D0;
+      }
+
+      .facebook .layer span,
+      .facebook .text {
+         color: #4267B2;
+         border-color: #4267B2;
+      }
+
+      .whatsapp .layer span,
+      .whatsapp .text {
+         color: #25D366;
+         border-color: #25D366;
+      }
+
+      .telegram .layer span,
+      .telegram .text {
+         color: #0088cc;
+         border-color: #0088cc;
+      }
    </style>
 </head>
 <body>
-   <div class="icons">
-      <div class="icon-group">
-         <a href="#" class="facebook">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-facebook-f"></span>
-            </div>
-            <div class="text">Facebook</div>
-         </a>
-         <a href="#" class="twitter">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-twitter"></span>
-            </div>
-            <div class="text">Twitter</div>
-         </a>
-         <a href="#" class="instagram">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-instagram"></span>
-            </div>
-            <div class="text">Instagram</div>
-         </a>
-      </div>
-      <div class="icon-group">
-         <a href="#" class="linkedin">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-linkedin-in"></span>
-            </div>
-            <div class="text">LinkedIn</div>
-         </a>
-         <a href="#" class="youtube">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-youtube"></span>
-            </div>
-            <div class="text">YouTube</div>
-         </a>
-         <a href="#" class="whatsapp">
-            <div class="layer">
-               <span></span>
-               <span></span>
-               <span></span>
-               <span></span>
-               <span class="fab fa-whatsapp"></span>
-            </div>
-            <div class="text">WhatsApp</div>
-         </a>
+   <div class="profile">
+      <img src="https://i.imgur.com/WzU45uQ.jpg" alt="Nawal Abuzaid Profile Picture">
+      <div class="company-name">Nawal Abuzaid</div>
+      <div class="slogan">Journalist and photographer</div>
+
+      <div class="icons">
+         <div class="icon-group">
+            <a href="https://www.instagram.com/nawal_abuzaid__/?igsh=NzNkbDdzNzM4OXZ3&utm_source=qr" class="instagram">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-instagram"></span>
+               </div>
+               <div class="text">Instagram</div>
+            </a>
+            <a href="https://www.tiktok.com/@nawal_abuzaid?_t=8pOWhrDxXxi&_r=1" class="tiktok">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-tiktok"></span>
+               </div>
+               <div class="text">TikTok</div>
+            </a>
+            <a href="https://www.facebook.com/share/ZJm1eiEQF4e1SSKw/?mibextid=LQQJ4d" class="facebook">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-facebook-f"></span>
+               </div>
+               <div class="text">Facebook</div>
+            </a>
+         </div>
+         <div class="icon-group">
+            <a href="https://wa.me/972595041840" class="whatsapp">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-whatsapp"></span>
+               </div>
+               <div class="text">WhatsApp</div>
+            </a>
+            <a href="https://t.me/nawalabuzaid119" class="telegram">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-telegram"></span>
+               </div>
+               <div class="text">Telegram</div>
+            </a>
+         </div>
       </div>
    </div>
 </body>
