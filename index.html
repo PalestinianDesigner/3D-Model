@@ -16,13 +16,28 @@
          font-family: 'Poppins', sans-serif;
       }
 
-      html, body {
+      /*html, body {
          display: grid;
          height: 100%;
          place-items: center;
          background-color: #000;
          color: #fff;
-      }
+
+      } this is the original code*/
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: linear-gradient(to right, #0A1A29, #0A1A29); /* Gradient from dark blue to light blue */
+    color: #fff;
+    margin: 0;
+    padding: 35px;
+    font-family: 'Poppins', sans-serif;
+   /*background: linear-gradient(to right, #ff512f, #f09819);*/ ; /* Optional Gradient from red to orange */
+
+}
+
 
       .profile {
          text-align: center;
@@ -82,7 +97,8 @@
          transition: all 0.3s ease;
       }
 
-      .icons a .layer span.fab {
+      .icons a .layer span.fab, 
+      .icons a .layer span.fas {
          font-size: 30px;
          line-height: 55px;
          text-align: center;
@@ -142,8 +158,11 @@
 
       .facebook .layer span,
       .facebook .text {
-         color: #4267B2;
-         border-color: #4267B2;
+         /*color: #4267B2;*/
+         /*border-color: #4267B2;*/
+         color: #FFFFFF;
+         border-color: #FFFFFF;
+
       }
 
       .whatsapp .layer span,
@@ -157,6 +176,13 @@
          color: #0088cc;
          border-color: #0088cc;
       }
+
+      .save-contact .layer span,
+      .save-contact .text {
+         color: #FFD700; /* Gold color for "Save Contact" icon */
+         border-color: #FFD700;
+      }
+
    </style>
 </head>
 <body>
@@ -218,6 +244,16 @@
                   <span class="fab fa-telegram"></span>
                </div>
                <div class="text">Telegram</div>
+            </a>
+            <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AFN%3ANawal%20Abuzaid%0D%0AN%3AAbuzaid%3BNawal%3B%3B%3B%0D%0ATEL%3BTYPE%3DCELL%3A%2B972595041840%0D%0AEND%3AVCARD%0D%0A" class="save-contact" download="NawalAbuzaid.vcf">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fas fa-address-book"></span>
+               </div>
+               <div class="text">Save</div>
             </a>
          </div>
       </div>
